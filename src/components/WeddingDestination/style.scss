@@ -1,0 +1,110 @@
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 20px;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+
+  &__link {
+    color: #00b3bd;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+
+    &:hover {
+      color: #00b3bd;
+    }
+  }
+
+  &__wedding-destination {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__wedding-destination-left-content {
+    margin-top: 100px;
+
+    @media (max-width: 767px) {
+      margin: auto;
+    }
+  }
+
+  &__wedding-destination-left-content-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__spa-and-wellness-gallery {
+    text-align: right;
+    margin-bottom: 20px;
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  &__wedding-and-honeymoon-gallery {
+    text-align: right;
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  &__featured-video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    grid-gap: 20px;
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__featured-video-text {
+    h1 {
+      font-family: "sabonitalic";
+      font-size: 48px;
+      text-transform: uppercase;
+      font-style: italic;
+      color: #231f20;
+
+      @media (max-width: 767px) {
+        color: #93979a;
+        font-size: 12px;
+      }
+    }
+  }
+
+  &__text-border-top {
+    border-top: 1px solid #666;
+    width: 30%;
+    height: 4px;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  &__text-border-bottom {
+    border-top: 1px solid #666;
+    width: 30%;
+    height: 4px;
+    display: block;
+    margin-top: 30px;
+  }
+}
