@@ -15,7 +15,17 @@ const WeddingDestination = () => {
       <div className="main-wrapper">
         <div className="main-wrapper__wedding-destination">
           <div className="main-wrapper__wedding-destination-left-content">
-            <div className="main-wrapper__wedding-destination-left-content-top">
+            <div className="main-wrapper__wedding-and-honeymoon-gallery">
+              <img
+                src={WeddingandHoneymoonGallery}
+                alt="gallery-thumbnail"
+                className="img-fluid main-wrapper__wedding-and-honeymoon-img"
+              />
+              <a href="/" className="main-wrapper__link">
+                Weddings & Honeymoons Gallery
+              </a>
+            </div>
+            <div className="main-wrapper__wedding-destination-left-content-bottom">
               <div className="main-wrapper__empty-box"></div>
               <div className="main-wrapper__spa-and-wellness-gallery">
                 <img
@@ -27,16 +37,6 @@ const WeddingDestination = () => {
                   Spa & Wellness Gallery
                 </a>
               </div>
-            </div>
-            <div className="main-wrapper__wedding-and-honeymoon-gallery">
-              <img
-                src={WeddingandHoneymoonGallery}
-                alt="gallery-thumbnail"
-                className="img-fluid main-wrapper__wedding-and-honeymoon-img"
-              />
-              <a href="/" className="main-wrapper__link">
-                Weddings & Honeymoons Gallery
-              </a>
             </div>
           </div>
           <div className="main-wrapper__wedding-destination-right-content">

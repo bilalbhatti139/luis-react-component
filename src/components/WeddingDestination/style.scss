@@ -33,14 +33,14 @@
   }
 
   &__wedding-destination-left-content {
-    margin-top: 100px;
+    margin-top: 200px;
 
     @media (max-width: 767px) {
       margin: auto;
     }
   }
 
-  &__wedding-destination-left-content-top {
+  &__wedding-destination-left-content-bottom {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -106,5 +106,11 @@
     height: 4px;
     display: block;
     margin-top: 30px;
+  }
+
+  &__spa-and-wellness-img {
+    @media (max-width: 767px) {
+      width: 100%;
+    }
   }
 }
