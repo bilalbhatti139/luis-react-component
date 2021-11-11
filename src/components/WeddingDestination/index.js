@@ -4,7 +4,6 @@ import React, { Fragment } from "react";
 import "./style.scss";
 
 // import images
-import SpaAndWellnessGallery from "../../assets/zoetry-montego-bay-jamaica-spa-wellness-thumb.jpg";
 import WeddingandHoneymoonGallery from "../../assets/zoetry-montego-bay-jamaica-wedding-honeymoon-01.jpg";
 import ZoetryMontegoBayGallery from "../../assets/zoetry-montego-bay-jamaica-featured-video-01.jpg";
 import FeaturedVideo from "../../assets/zoetryWedding-Style-Large-Video-Template.jpg";
@@ -24,19 +23,6 @@ const WeddingDestination = () => {
               <a href="/" className="main-wrapper__link">
                 Weddings & Honeymoons Gallery
               </a>
-            </div>
-            <div className="main-wrapper__wedding-destination-left-content-bottom">
-              <div className="main-wrapper__empty-box"></div>
-              <div className="main-wrapper__spa-and-wellness-gallery">
-                <img
-                  src={SpaAndWellnessGallery}
-                  alt="gallery-thumbnail"
-                  className="img-fluid main-wrapper__spa-and-wellness-img"
-                />
-                <a href="/" className="main-wrapper__link">
-                  Spa & Wellness Gallery
-                </a>
-              </div>
             </div>
           </div>
           <div className="main-wrapper__wedding-destination-right-content">
