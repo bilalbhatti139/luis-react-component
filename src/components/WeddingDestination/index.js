@@ -31,6 +31,7 @@ const WeddingDestination = () => {
                 src={ZoetryMontegoBayGallery}
                 alt="gallery-thumbnail"
                 className="img-fluid"
+                width="89%"
               />
               <a href="/" className="main-wrapper__link">
                 Zöetry Montego Bay Gallery
