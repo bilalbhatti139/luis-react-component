@@ -95,4 +95,16 @@
       width: 100%;
     }
   }
+
+  &__image-big-box {
+    object-fit: cover;
+    height: 590px;
+    width: 90%;
+  }
+
+  &__wedding-and-honeymoon-img {
+    object-fit: cover;
+    height: 636px;
+    width: 100%;
+  }
 }
