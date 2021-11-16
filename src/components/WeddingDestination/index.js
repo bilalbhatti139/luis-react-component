@@ -41,7 +41,7 @@ const WeddingDestination = () => {
                 <img
                   src={FeaturedVideo}
                   alt="gallery-thumbnail"
-                  className="img-fluid"
+                  className="img-fluid main-wrapper__video-thumbnail"
                 />
                 <a href="/" className="main-wrapper__link">
                   Featured Video
